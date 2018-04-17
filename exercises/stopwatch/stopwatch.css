@@ -1,0 +1,63 @@
+.container {
+  width: 100%;
+  display: inline-block;
+  text-align:  center;
+}
+.timer {
+  background-color: #000;
+  color: #fff;
+  height: 300px;
+  width: 100vw;
+  display: inherit;
+  vertical-align: middle;
+  margin-bottom: 2em;
+}
+.timer > p ,
+#seconds,
+#milliseconds{
+  display: inherit;
+  font-size: 130px;
+  text-align: center;
+}
+#records {
+    align-content: center;
+    padding: 20px;
+}
+/* .timer > p {
+  width: 700px;
+} */
+body {
+  margin: 0;
+}
+li {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+  width: 200px;
+  height: 50px;
+  /* border: solid 2px; */
+
+}
+button {
+  width: 15em;
+  height: 5em;
+  margin: 2em;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+
+}
+span {
+  width: 150px;
+}
+button:active {
+  border: none;
+}
+button:hover {
+  background: white;
+	border: solid 1px white;
+  font-weight: bold;
+}
