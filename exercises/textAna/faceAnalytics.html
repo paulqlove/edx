@@ -1,0 +1,30 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+          <link rel="stylesheet" href="index.css">
+        </head>
+        <body>
+            <h1>FACE API Demo</h1>
+            <div>
+                <h3>Enter Image Url</h3>
+                <textarea style ="height:20px;width:600px" id="input"></textarea>
+            </div>
+            <div>
+                <button id ="analyseButton"> Analyse </button>
+            </div>
+            <div style="width:600px; display:table-cell;">
+                <h3>Image </h3>
+                <br><br>
+                <ul id="attributes">
+
+                </ul>
+            </div>
+            <div id="imageDiv" style="width:420px; display:table-cell;">
+                Source image:
+                <br><br>
+                <img id="sourceImage" width="400" />
+            </div>
+
+            <script src="faceAnalytics.js"></script>
+        </body>
+    </html>
